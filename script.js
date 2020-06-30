@@ -38,15 +38,15 @@ var g = svg.append("g").style("stroke-width", "1.5px");
 queue()
   .defer(
     d3.json,
-    "https://gist.githubusercontent.com/JesseCHowe/5d9a4962ed95b8c87c8fdedc79306fe7/raw/8fd34de1990a2d7fef4cbc3e94e8635b11fdbd99/OK_Precincts_Final.json"
+    "https://raw.githubusercontent.com/JesseCHowe/Oklahoma_6_30_Election/master/precincts.json"
   )
   .defer(
     d3.json,
-    "https://gist.githubusercontent.com/JesseCHowe/c780560b277cf6e9bd941b56bc56d559/raw/f9282e28416ad3cfebb0fa15fd4297fe4577a82f/OK_counties_final.json"
+    "https://raw.githubusercontent.com/JesseCHowe/Oklahoma_6_30_Election/master/counties.json"
   )
   .defer(
     d3.csv,
-    "https://gist.githubusercontent.com/JesseCHowe/1a201f343c8fd7226b5361f979304c81/raw/b391ba35941be52d0821f872f4f7753b481ba8ef/testElection.csv"
+    "https://raw.githubusercontent.com/JesseCHowe/Oklahoma_6_30_Election/master/results.csv"
   )
   .defer(
     d3.json,
