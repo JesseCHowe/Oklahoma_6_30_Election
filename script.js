@@ -50,7 +50,7 @@ queue()
   )
   .defer(
     d3.json,
-    "https://gist.githubusercontent.com/JesseCHowe/7aad607619802769bb4e3d2630cb8050/raw/6bbf8fcd850d050913e2363a57383f63f00e3601/ok_places.json"
+    "https://raw.githubusercontent.com/JesseCHowe/Oklahoma_6_30_Election/master/places.json"
   )
   .await(loaded);
 
