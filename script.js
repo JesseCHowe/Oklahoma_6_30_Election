@@ -92,7 +92,7 @@ function loaded(error, county, us, results, places) {
       return (tot += +num.cand_tot_votes);
     }, 0);
     const testnumer =
-      test.filter((o) => o.cand_name == "AGAINST THE PROPOSAL - NO")[0] || 0;
+      test.filter((o) => o.cand_name == "FOR THE PROPOSAL - YES")[0] || 0;
     let pctLIB = +testnumer.cand_tot_votes / totalresult;
 
     // const dataRow = countyId.get(d.id);
