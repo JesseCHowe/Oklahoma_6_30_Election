@@ -110,3 +110,23 @@ th{
 .against-row{
   border-bottom: 1px solid #ccc;
 }
+
+.clrBlock {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.against-row .drk-color{
+  background: #f28124;
+}
+.against-row .lgt-color{
+  background: #f5a461;
+}
+
+.for-row .drk-color{
+  background: #367a7f;
+}
+.for-row .lgt-color{
+  background: #75a6a8;
+}
